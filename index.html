@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pembelajaran Web Responsive</title>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="gambar/icon_192.png">
+    <meta name="theme-color" content="#317EFB"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="manifest" href="https://delible-dynamometer.000webhostapp.com/manifest.json">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <script>
+    if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js')
+    .then(function(registration) {
+        console.log("Service Worker Registered", registration);
+    })
+    .catch(function(err) {
+        console.log("Service Worker Failed to Register", err);
+    })
+}
+   </script>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand text-warning logox" href="index.html">
+        <strong>P r o f i l k u</strong>
+    </a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link text-warning" href="detail.html">Tentang Aku</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-warning" href="detail.html">Project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-warning" href="detail.html">Hobi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-warning" href="detail.html">Lainnya</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="jumbotron jumbotron-fluid bg-dark">
+  <div class="container text-white">
+    <h1 class="display-4">Salam sehat!</h1>
+    <p class="lead">Hidup ini indah, mari kita syukuri  </p>
+    <hr class="my-4">
+    <p>Seorang ibu rumah tangga yang ingin selalu berkarya dan bahagia</p>
+    <a class="btn btn-info btn-lg" href="#" role="button">Learn more</a>
+
+  </div>
+</div>
+ 
+<!-- /.jumbotron -->
+
+ <!-- Galeri artikel -->
+
+<div class="container">
+    <div class="row p-2">
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <a href="detail.html"><img class='gbr' src="gambar/gbr1.jpg" width="100%" alt="Gambar 1"></a>
+                <div class="caption">
+                    <h4>Jobs</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris</p>
+                    <p><a href="detail.html" class="btn btn-info btn-block" role="button">Selengkapnya</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <a href="detail.html"><img class='gbr' src="gambar/gbr2.jpg" width="100%" alt=""></a>
+                <div class="caption">
+                    <h4><a href="detail.html" style="text-decoration:none;color: black;">Hobi</a> </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris</p>
+                    <p><a href="detail.html" class="btn btn-info btn-block" role="button">Selengkapnya</a></p>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <a href="detail.html"><img class='gbr' src="gambar/gbr3.jpg" width="100%" alt="Gambar 3"></a>
+                <div class="caption">
+                    <h4>Leisure</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris</p>
+                    <p><a href="detail.html" class="btn btn-info btn-block" role="button">Selengkapnya</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <a href="detail.html"><img class='gbr' src="gambar/gbr4.jpg"  width="100%" alt="Gambar 4"></a>
+                <div class="caption">
+                    <h4>Dessert</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris</p>
+                    <p><a href="detail.html" class="btn btn-info btn-block " role="button">Selengkapnya</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!-- Footer -->
+
+<footer class="footer-section">
+        <div class="container">       
+          <div class="footer-content pt-5 pb-3">
+                <div class="row mx-auto">
+                    <div class="col-xl-4 col-lg-4 mb-5">
+                        <div class="footer-widget">
+                           <div class="footer-widget-profil">
+                                <h3>Profilku<h3>
+                                      <div class="image-cropper">
+                                        <img src="gambar/avatar-5.jpg" alt="Avatar" class="avatar" />
+                                      </div>                                                                     
+                            </div>
+                            <div class="footer-text">
+                                <p class='text-white px-2'>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                    elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Link Lainnya</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="detail.html">Tentang Aku</a></li>
+                                <li><a href="detail.html">Project</a></li>
+                                <li><a href="detail.html">Hobi</a></li>
+                                <li><a href="detail.html">Lainnya</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-15">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Kirimi saya pesan</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Silahkan kirim saran pesan maupun komentar</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button>Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2021</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="detail.html">Tentang Aku</a></li>
+                                <li><a href="detail.html">Project</a></li>
+                                <li><a href="detail.html">Hobi</a></li>
+                                <li><a href="detail.html">Lainnya</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+ 
+</body>
+</html>
